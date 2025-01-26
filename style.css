@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: static;
+}
+.first-column {
+  justify-content: space-between;
+  padding-left: 1rem;
+  position: fixed;
+  box-shadow: 0 3px 5px #4c4d4e26;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  padding-left: 1rem;
+}
+
+.culumn {
+}
+.name {
+  color: rgb(11, 7, 255);
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text2 {
+  color: rgb(11, 7, 255);
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+  display: flex;
+  color: rgb(255, 255, 255);
+  background-color: rgb(21, 0, 255);
+  width: 3rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+.first-head {
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(89, 0, 255);
+}
+.mypostw {
+  border-radius: 30% 30% 30% 30%;
+  box-shadow: 5px 8px 8px rgb(193, 193, 250);
+}
+.second-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5cm;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+.button1 {
+  color: rgb(253, 253, 255);
+  background-color: rgb(39, 39, 244);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: rgb(39, 39, 244);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: white;
+  animation: mymove 10s infinite;
+}
+@keyframes mymove {
+  10% {
+    box-shadow: 5px 6px 8px rgb(0, 0, 0);
+  }
+}
+.world {
+  border-radius: 100%;
+  animation: myworld 20s infinite;
+}
+@keyframes myworld {
+  10% {
+    rotate: 360deg;
+  }
+}
+.container {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+.text1 {
+  color: black;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  color: rgb(11, 7, 255);
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo3 {
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+.logo3-in:hover {
+  border-radius: 100%;
+  animation: myworld 20s infinite;
+  cursor: pointer;
+}
