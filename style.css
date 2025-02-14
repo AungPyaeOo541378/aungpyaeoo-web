@@ -15,6 +15,7 @@
   left: 0;
   padding: 8px;
   padding-left: 1rem;
+  z-index: 100;
 }
 
 .culumn {
@@ -116,4 +117,8 @@ span {
   border-radius: 100%;
   animation: myworld 20s infinite;
   cursor: pointer;
+}
+.hello {
+  color: blue;
+  background-color: blueviolet;
 }
